@@ -1,5 +1,3 @@
-console.log('hello world');
-
 function shuffleReviews() {
 	var ul = document.getElementById('shuffle');
 	for (var i = ul.children.length; i >= 0; i--) {
