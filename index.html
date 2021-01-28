@@ -9,8 +9,9 @@
     <base target="_blank">
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <link rel="icon" href="./assets/piano-favicon.png">
+    <script src="script.js"></script>
   </head>
-  <body>
+  <body onload="shuffleReviews()">
     <div class="header">
       <img src="./assets/profile.JPG" class="photo">
       <div class="title">
@@ -82,7 +83,7 @@
         </section>
         <section>
           <h1>Reviews</h1>
-          <ul>
+          <ul id="shuffle">
             <li>
               <img src="assets/testimony-quote.png" class="quote">
               <p class="review">It was a great pleasure to have Shin play piano at our wedding reception.</p>
